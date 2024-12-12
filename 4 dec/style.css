@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cadetblue;
+    height: 70px;
+}
+.logo{
+    font-size: 34px;
+    color: brown;
+}
+.logo span{
+    color: yellowgreen;
+}
+.navbar ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 25px;
+}
+.navbar .icon{
+    display: flex;
+    gap: 10px;
+}
+.navbar .icon{
+    color:brown;
+    font-size: 30px;
+}
+/* hero section */
+.hero{
+height: 300vh;
+/* bg img, report,position,size */
+background: url(/image/switz.jpeg)no-repeat center center/cover;
+
+}

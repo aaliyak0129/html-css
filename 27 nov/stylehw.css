@@ -1,0 +1,20 @@
+h1{
+    background-color: rgb(51, 214, 51);
+    color: white;
+    text-align: left;
+}
+
+nav ul{
+    float: left;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: medium;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    color: rgb(35, 216, 68);
+    text-decoration: none;
+}

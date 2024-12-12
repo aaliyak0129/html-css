@@ -1,0 +1,35 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    background-color:indianred;
+}
+/* # is use to represent id selector */
+#myheading{
+    background-color: indianred;
+    color: aliceblue;
+}
+/* . represent class selector */
+.common{
+    background-color: indianred;
+    color: aliceblue;
+}
+/* diff */
+.diff{
+    font-size: 20px;
+}
+img{
+    width:200px;
+    height: 200px;
+}
+/* nested selector */
+div img{
+    width: 300px;
+    height: 300px;
+}
+/* multiple selector */
+h1,
+p,
+.common{
+    text-align: center;
+}

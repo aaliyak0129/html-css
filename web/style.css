@@ -1,0 +1,92 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background-color: #232f3e;
+    color: white;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    background-color: #ffa41b;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    background-color: #37475a;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.categories, .products, .deals {
+    padding: 20px;
+}
+
+.category-container, .product-container, .deal-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category, .product, .deal {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footer-top ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+}

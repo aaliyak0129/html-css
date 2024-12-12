@@ -1,0 +1,38 @@
+body {
+  /* background-color: rgb(182,139,41); */
+  background-color: rgb(231, 127, 127);
+}
+
+.mypara {
+  background-color:aqua;
+  font-size: large;
+  text-align: justify;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serifz;
+  font-weight: 900;
+  font-style: italic;
+  text-decoration: underline;
+  /* uppercase, lowercase,capitalize */
+  text-transform: capitalize;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  /* border */
+  border-width: 60px;
+  /* solid,dotted,dash */
+  border-style: dotted;
+  border-color: brown;
+  /* shorthand */
+  border: 12px solid yellow;
+  
+}
+.new{
+    height: 300px solid blue;
+    border-top: 10px dashed black;
+    border-right: 10px solid brown;
+    border-bottom: 10px solid red;
+    border-left: 10px solid orange;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="demo.js" method="post">
+      <div>
+        <lable for="msg">message</lable> <br />
+        <textarea id="msg" cols="20" rows="5"> </textarea>
+      </div>
+      <div>
+        <label for="vehical">select car</label>
+        <input type="text" name="vehical" list="cars" />
+        <datalist id="cars">
+          <option value="BMW"></option>
+          <option value="audi"></option>
+          <option value="land lover"></option>
+          <option value="jaguar"></option>
+          <option value="tesla"></option>
+        </datalist>
+      </div>
+      <!-- <button type="submit"send</button> -->
+      <input type="submit" value="send data" />
+      <input type="reset" value="reset now" />
+    </form>
+  </body>
+</html>

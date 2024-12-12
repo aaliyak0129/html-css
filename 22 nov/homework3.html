@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      Registration
+      Form="width=device-width, initial-scale=1.0"
+    />
+    <title>Registration form</title>
+    <style>
+       {
+        background-color: rgb(252, 210, 229);
+      }
+      h1 {
+        color: rgb(207, 44, 66);
+      }
+      button {
+        background-color: rgb(207, 44, 66);
+        width: 200px;
+        height: 40px;
+        font-size: x-large;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <form action="demo.js">
+      <div>
+        <lable for="name">enter your name</lable>
+        <input type="text" id="name" placeholder="enter name" value="" />
+      </div>
+      <br />
+      <div>
+        <lable for="email">enter your email</lable>
+        <input type="email" id="email" placeholder="enter email" value="" />
+      </div>
+      <br />
+      <div>
+        <lable for="psw">enter your password</lable>
+        <input type="password" id="psw" placeholder="enter password" value="" />
+      </div>
+      <br />
+      <div>
+        <lable for="num">enter your number</lable>
+        <input type="number" id="num" placeholder="enter number" value="" />
+      </div>
+      <br />
+      <div>
+        <lable for="dob">select your date of birth</lable>
+        <input type="date" id="dob" />
+      </div>
+      <br />
+      <div>
+        <lable for="gender">select your gender</lable>
+        <input
+          type="radio"
+          name="select your gender"
+          id="male"
+          value="male"
+        />male
+        <input
+          type="radio"
+          name="select your gender"
+          id="female"
+          value="female"
+        />female
+        <input
+          type="radio"
+          name="select your gender"
+          id="other"
+          value="other"
+        />other
+      </div>
+      <br />
+      <div>
+        <label for="hobbies">what hobbies you like?</label>
+        <input type="checkbox" id="singing" value="singing" />singing
+        <input type="checkbox" id="dance" value="dance" />dance
+        <input type="checkbox" id="cooking" value="cooking" />cooking
+      </div>
+      <br />
+      <div>
+        <lable for="course">enter you course</lable>
+        <select id="course">
+          <option value="frontend">frontend</option>
+          <option value="backend">backend</option>
+          <option value="fullstack" selected>fullstack</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <lable for="agree">I accept all terms and conditions</lable>
+        <input type="checkbox" id="agree" value="conditions" />
+      </div>
+      <button type="submit">Log In</button>
+    </form>
+  </body>
+</html>
