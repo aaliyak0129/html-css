@@ -1,0 +1,43 @@
+.container{
+    border: 5px solid black;
+    height: 1000px;
+    margin: 50px;
+    display: flex;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+/* it is relative to  its normal position jaha hai wahi rahega */
+.box1{
+    background-color: lightcoral;
+position: relative;
+top: 200px;
+left: 100px;
+
+}
+/* moves from the top and left of the page edges */
+.box2{
+    background-color:yellow;
+    position: absolute;
+    top: 1000px;
+    left: 160px;
+    top: 0;
+    /* z-index is use for overlaping */
+    z-index: 1;
+}
+.box3{
+    background-color:yellowgreen;
+    position: fixed;
+    top: 0;
+    left: 50px;
+
+}
+/* position fixed is fixed till the page edges while position sticky is fixed only till the container it is inside */
+.box4{
+    background-color:plum;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}

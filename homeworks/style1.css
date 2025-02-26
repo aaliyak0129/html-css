@@ -1,0 +1,16 @@
+.image {
+    z-index: -1;
+    position: absolute;
+    width: 100px;
+}
+.image-2{
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+width: 100px;
+}
+img {
+    border: 2px solid #000;
+
+}
+
