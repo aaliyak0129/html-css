@@ -1,0 +1,52 @@
+/* p is a direct child of div */
+div > p{
+    background-color: crimson;
+    color: white;
+}
+/* next sibling */
+div + p{
+    background-color: black;
+    color: white;
+}
+/* subsequent sibling */
+div ~ p{
+    background-color: black;
+    color: burlywood;
+    border: none;
+    outline: none;
+}
+/* by attribute */
+input[type="text"]:focus{
+    background-color: yellow;
+    color: yellowgreen;
+}
+a{
+    background-color:yellowgreen;
+    color:blue;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 100px;
+    display: inline-block;
+}
+/* unvisited link  */
+a:link{
+    background-color: olive;
+    color: yellow;
+}
+/* active link when you opend link */
+a:active{
+    background-color: darkgoldenrod;
+    color: white;
+}
+a:hover{
+    background-color: brown;
+    color: white;
+}
+li:first>child{background-color: orange;
+    color: orangered;
+
+}
+li:nth~child(5){
+    
+}

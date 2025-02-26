@@ -1,0 +1,46 @@
+body{
+    background-color: plum;
+color: black;
+font-size: 40px;
+font-weight: 900;
+}
+h1{
+    background-color: aliceblue;
+    color: palevioletred;
+    text-decoration: underline;
+text-align: center;}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 300px;
+}
+/* tablet view */
+@media screen and (max-width:768px) {
+    body{
+        background-color: rgb(181, 150, 27);
+    }
+
+h1{
+    background-color: brown;
+    color: black;
+}
+.image{
+    flex-direction: column;
+}
+}
+
+/* Mobile View */
+@media screen and (max-width:425px){
+    body{
+        background-color: orange;
+    }
+    h1{
+        background-color: black;
+    }
+}

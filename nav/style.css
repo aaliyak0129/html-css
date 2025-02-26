@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    /* background-color: transparent; */
+    height: 70px;
+  }
+  .logo {
+    font-size: 34px;
+    color: white;
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+  .navbar .icons {
+    display: flex;
+    gap: 10px;
+  }
+  .navbar .icons i {
+    color: white;
+    font-size: 30px;
+  }
+  .content h1{
+    color: white;
+    font-size:80px;
+    text-align: center;
+  }
+  .content p{color: rgb(239, 224, 13);
+font-size: 40px;
+text-align: center;}
+.btn{
+    text-align: center;
+    font-size: 50px;
+}
+  /* Hero section */
+  .hero {
+    height: 100vh;
+    /*  bg-img,repeat,position,size */
+    background: url("/various-fruit-with-water-splash-on-dark-background-healthy-fruits-rich-in-vitamins-generative-ai-free-photo.jpeg") no-repeat center center/cover;
+  }
+  .hero .content h1{
+    font-size: 50px;
+}
+.hero .content p{
+    font-size: 40px;
+}
+
